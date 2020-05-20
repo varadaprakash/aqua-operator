@@ -17,7 +17,7 @@ Please make sure to read the Aqua installation manual (https://docs.aquasec.com/
 For advance configurations please consult with Aqua's support team.
     
 How to deploy Aqua using the Operator -
-1. Install the Aqua Operator from RH's OperatorHub
+1. Install the [Aqua Operator](https://operatorhub.io/operator/aqua) from RH's OperatorHub
 2. Manage all the prerequisites as covered in the instructions below (see "Before you begin using the Operator CRDs")
 3. Use the AquaCSP CRD to install Aqua in your cluster. AquaCSP CRD defines how to deploy the Console, Database, Scanner, and Gateway Custom Resources
 4. You can also use the AquaCSP CRD to deploy the default Enforcers and an OpenShift Route to access the console 
